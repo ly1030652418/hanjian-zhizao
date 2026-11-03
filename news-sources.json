@@ -1,0 +1,44 @@
+[
+  {
+    "type": "rss",
+    "name": "新华网科技",
+    "url": "https://www.xinhuanet.com/tech/news_tech.xml",
+    "category": "industry"
+  },
+  {
+    "type": "html",
+    "name": "卡诺普机器人",
+    "url": "https://crprobot.com/c/news.html",
+    "category": "company"
+  },
+  {
+    "type": "html",
+    "name": "钜泽机器人",
+    "url": "https://juzerobot.com/cn/",
+    "category": "company"
+  },
+  {
+    "type": "html",
+    "name": "配天机器人",
+    "url": "https://www.peitianrobot.com.cn/",
+    "category": "company"
+  },
+  {
+    "type": "html",
+    "name": "博清科技",
+    "url": "https://www.botsing.com/",
+    "category": "company"
+  },
+  {
+    "type": "html",
+    "name": "仁新机器人",
+    "url": "https://www.lerobotics.com/News/",
+    "category": "company"
+  },
+  {
+    "type": "html",
+    "name": "哈工现代",
+    "url": "https://www.hgxd.cn/news",
+    "category": "company"
+  }
+]
