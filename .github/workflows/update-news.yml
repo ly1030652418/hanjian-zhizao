@@ -51,6 +51,8 @@ jobs:
       - name: Set up GitHub Pages
         if: steps.collect.outputs.changed == 'true'
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Upload updated site
         if: steps.collect.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v3
