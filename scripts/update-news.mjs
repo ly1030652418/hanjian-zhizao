@@ -201,7 +201,7 @@ function articleHtml(item, siteUrl) {
 <meta property="og:type" content="article"><meta property="og:title" content="${escapeHtml(item.title)}"><meta property="og:description" content="${escapeHtml(item.summary)}">${canonical}
 <script type="application/ld+json">${JSON.stringify(schema).replaceAll('<', '\\u003c')}</script>
 <style>body{margin:0;background:#f5f6f2;color:#142522;font:16px/1.8 system-ui,"Microsoft YaHei",sans-serif}.wrap{max-width:780px;margin:8vh auto;padding:36px;background:#fff;border:1px solid #e2e8e2;border-radius:18px}a{color:#165c47}small{color:#728078}.brand{font-weight:800;color:#164c40;text-decoration:none}.tag{display:inline-block;margin-top:30px;padding:3px 9px;background:#edf4df;border-radius:5px;font-size:12px;color:#48684d}h1{font-size:32px;line-height:1.4;margin:14px 0}p{color:#56645e}.source{margin:28px 0;padding:16px;background:#f3f6f2;border-radius:10px;font-size:14px}@media(max-width:600px){.wrap{margin:0;padding:26px 20px;border-radius:0;min-height:100vh}h1{font-size:25px}}</style></head>
-<body><main class="wrap"><a class="brand" href="../index.html">焊见智造 · 智能焊接产业资讯</a><div class="tag">${escapeHtml(({company:'企业动态',industry:'行业新闻',technology:'技术应用'})[item.category] || '企业动态')}</div>
+<body><main class="wrap"><a class="brand" href="../index.html">龙琪智造观察站 · 智能焊接产业资讯</a><div class="tag">${escapeHtml(({company:'企业动态',industry:'行业新闻',technology:'技术应用'})[item.category] || '企业动态')}</div>
 <h1>${escapeHtml(item.title)}</h1><small>发布时间：${escapeHtml(displayDate(item))}　·　来源：${escapeHtml(item.source)}</small>
 <p>${escapeHtml(item.summary || '本文为公开来源资讯摘要，详情请查看原文。')}</p><div class="source">本文依据公开来源整理，仅作资讯索引。<br>原文来源：<a href="${escapeHtml(item.url)}" rel="nofollow noopener" target="_blank">${escapeHtml(item.source)} 原文链接 ↗</a></div>
 <p><a href="../index.html">← 返回资讯首页</a></p></main></body></html>`;
@@ -248,7 +248,7 @@ const updatedLabel = `资讯更新于 ${new Intl.DateTimeFormat('zh-CN', { timeZ
 html = html.replace(/(<div class="feed-updated" id="feedUpdated">)[\s\S]*?(<\/div>)/, `$1${escapeHtml(updatedLabel)}$2`);
 
 if (siteUrl) {
-  const seo = `<link rel="canonical" href="${siteUrl}/"><meta property="og:type" content="website"><meta property="og:site_name" content="${escapeHtml(config.siteName)}"><meta property="og:title" content="焊见智造 · 智能焊接产业资讯"><meta property="og:description" content="焊接机器人与智能焊接行业新闻、企业动态、应用案例与公开视频。">`;
+  const seo = `<link rel="canonical" href="${siteUrl}/"><meta property="og:type" content="website"><meta property="og:site_name" content="${escapeHtml(config.siteName)}"><meta property="og:title" content="龙琪智造观察站 · 智能焊接产业资讯"><meta property="og:description" content="焊接机器人与智能焊接行业新闻、企业动态、应用案例与公开视频。">`;
   html = html.replace('<!-- GENERATED-SEO -->', seo);
 }
 await writeFile(indexPath, html, 'utf8');

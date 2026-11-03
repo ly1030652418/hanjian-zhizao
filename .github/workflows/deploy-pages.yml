@@ -31,7 +31,7 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL }}
         run: |
-          node scripts/update-news.mjs --seed-only
+          node scripts/update-news.mjs
           node scripts/build-site.mjs
       - name: Set up GitHub Pages
         uses: actions/configure-pages@v5
