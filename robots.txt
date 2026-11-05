@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ly1030652418.github.io/hanjian-zhizao/sitemap.xml
