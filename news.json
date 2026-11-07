@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-07T11:41:44.242Z",
+  "updatedAt": "2026-11-07T12:51:45.063Z",
   "items": [
-    {
-      "title": "工业焊接机器人核心优势与现场实操要点解析",
-      "summary": "哈工现代发布的焊接机器人相关资讯，详情请查看来源原文。",
-      "url": "https://www.hgxd.cn/industrial-welding-robot-advantages-and-practice.html",
-      "source": "哈工现代",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "category": "company"
-    },
     {
       "title": "海外客户来厂考察钜泽KOZA协作焊接机器人｜决定带回本国（二）",
       "summary": "钜泽机器人发布的焊接机器人相关资讯，详情请查看来源原文。",
       "url": "https://juzerobot.com/cn/NewsDetail/9228514.html",
       "source": "钜泽机器人",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "category": "company"
+    },
+    {
+      "title": "工业焊接机器人核心优势与现场实操要点解析",
+      "summary": "哈工现代发布的焊接机器人相关资讯，详情请查看来源原文。",
+      "url": "https://www.hgxd.cn/industrial-welding-robot-advantages-and-practice.html",
+      "source": "哈工现代",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "category": "company"
     },
